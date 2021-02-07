@@ -1,6 +1,6 @@
 let index=0;
 let banner = document.getElementById("text");
-let bannerText = "Loading your page..";
+let bannerText = "my page is loading..";
 let count = 0;
 let letter = "";
 let dot = document.getElementById("dot");

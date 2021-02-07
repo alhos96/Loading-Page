@@ -1,0 +1,404 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+
+body{
+    font-size: 30px;
+    font-family: monospace;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* - - wrapp - - */
+
+.wrapp{
+    text-align: center;
+}
+
+/* - - start -- button - - */
+
+.button-wrapp{
+    margin-bottom: 20px;
+}
+
+#start-button{
+    font-size: 30px;
+    border: 2.5px solid black;
+    padding: 1px 4px 1px 4px;
+    color: black;
+}
+
+/* - - text - - */
+
+.text-wrapp{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#dot{
+    width: 4.8px;
+    height: 4.8px;
+    border-radius: 50px;
+    background-color: black;
+    margin: auto;
+    position:absolute;
+    bottom: 12px;
+    right: 6px;
+    animation-name: bounce;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-delay: 1000ms;
+    visibility: hidden;
+}
+
+#cursor{
+    height: 30px;
+    width: 2.5px;
+    background-color: black;
+    animation-name: blink;
+    animation-duration:0.9s;
+    animation-iteration-count:infinite;
+    margin-left: 13px;
+}
+
+  @keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+} 
+
+@keyframes color{
+    0%{
+        background-color: white
+    }
+    50%{
+        background-color: gray ;
+    }
+    100%{
+        background-color: black;
+    }
+} 
+
+ @keyframes bounce{
+    0%{
+        bottom: 12px;
+        right: 6px;
+    }
+    2%{
+        bottom: 5px;
+        height: 4.8px;
+        width: 5.2px;
+        right: 6px;
+    }
+    4%{
+        bottom: 12px;
+        right: 6px;
+    }
+    6%{
+        bottom: 12px;
+        right: 6px;
+    }
+    8%{
+        bottom: 5px;
+        height: 4.8px;
+        width: 5.2px;
+        right: 6px;
+    }
+    10%{
+        bottom: 12px;
+        right: 6px;
+    }
+    12%{
+        bottom: 12px;
+        right: 6px;
+        
+    }
+    14%{
+        bottom: 5px;
+        height: 4.8px;
+        width: 5.2px;
+        right: 6px;
+    }
+    16%{
+        bottom: 12px;
+        right: 6px;
+    }
+
+    18%{
+        bottom: 12px;
+        right: 6px;
+    }
+    20%{
+        bottom: 5px;
+        height: 4.8px;
+        width: 5.2px;
+        right: 6px;
+    }
+    22%{
+        bottom: 12px;
+        right: 6px;
+    }
+    24%{
+        bottom: 12px;
+        right: 6px;
+        
+    }
+    26%{
+        bottom: 5px;
+        height: 4.8px;
+        width: 5.2px;
+        right: 6px;
+    }
+    28%{
+        bottom: 12px;
+        right: 6px;
+    }
+
+    30%{
+        bottom: 12px;
+        right: 6px;
+        
+    }
+    32%{
+        bottom: 5px;
+        height: 4.8px;
+        width: 5.2px;
+        right: 6px;
+    }
+    34%{
+        bottom: 12px;
+        right: 6px;
+    }
+
+    36%{
+        bottom: 30px;
+    }
+    38%{
+        right: 46px;
+        bottom: 20px;
+        height: 4.8px;
+        width: 5.2px;
+
+    }
+    40%{
+        right: 46px;
+        bottom: 30px;
+
+    }
+    42%{
+        right: 46px;
+        bottom: 20px;
+        height: 4.8px;
+        width: 5.2px;
+
+    } 
+    44%{
+        right: 46px;
+        bottom: 30px;
+
+    }
+    46%{
+        right: 46px;
+        bottom: 20px;
+        height: 4.8px;
+        width: 5.2px;
+
+    }
+    48%{
+        bottom: 45px;
+    }
+    50%{
+        right: 87px;
+        bottom: 26px;
+        height: 4.8px;
+        width: 5.2px;
+
+    }
+    52%{
+        right: 87px;
+        bottom: 46px;
+
+    }
+    54%{
+        right: 87px;
+        bottom: 26px;
+        height: 4.8px;
+        width: 5.2px;
+    } 
+    56%{
+        right: 117px;
+        bottom: 110px;
+
+    }
+    58%{
+        right: 125px;
+        bottom: 88px;
+        height: 4.8px;
+        width: 5px;
+    }
+
+    60%{
+        right: 130px;
+        bottom: 99px;
+
+    }
+    62%{
+        right: 135px;
+        bottom: 88px;
+        height: 4.8px;
+        width: 5px;
+    } 
+    64%{
+        right: 140px;
+        bottom: 99px;
+
+    }
+     66%{
+        right: 143px;
+        bottom: 88px;
+        height: 4.8px;
+        width: 5px;
+    }  
+
+    68%{
+        right: 146px;
+        bottom: 94px;
+
+    }
+    70%{
+        right: 149px;
+        bottom: 88px;
+        height: 4.8px;
+        width: 5.1px;
+    }
+
+    72%{
+        right: 152px;
+        bottom: 92px;
+
+    }
+    74%{
+        right: 155px;
+        bottom: 88px;
+        height: 4.8px;
+        width: 5.0px;
+    } 
+    76%{
+        right: 158px;
+        bottom: 90px;
+
+    }
+    78%{
+        right: 160px;
+        bottom: 88px;
+        height: 4.8px;
+        width: 4.8px;
+    }   
+
+    80%{
+        right: 162px;
+        bottom: 89px;
+
+    }
+    82%{
+        right: 163px;
+        bottom: 88px;
+        
+    } 
+    84%{
+        right: 164px;
+        bottom: 88px;
+
+    }
+    85%{
+        right: 164px;
+        bottom: 88px;
+
+    }
+    86%{
+        right: 164px;
+        bottom: 88px;
+        
+    } 
+    87%{
+        right: 164px;
+        bottom: 88px;
+
+    }
+    88%{
+        right: 164px;
+        bottom: 89px;
+
+    }
+    90%{
+        right: 165px;
+        bottom: 88px;
+
+    }
+    91%{
+        right: 164px;
+        bottom: 89px;
+        
+    } 
+    92%{
+        right: 165px;
+        bottom: 88px;
+
+    }
+    93%{
+        right: 164px;
+        bottom: 89px;
+
+    }
+    94%{
+        right: 165px;
+        bottom: 88px;
+
+    }
+    95%{
+        right: 164px;
+        bottom: 89px;
+        
+    } 
+    96%{
+        right: 165px;
+        bottom: 88px;
+
+    }
+    97%{
+        right: 164px;
+        bottom: 89px;
+
+    }
+    98%{
+        right: 165px;
+        bottom: 88px;
+
+    }
+    99%{
+        right: 164px;
+        bottom: 89px;
+        
+    } 
+    100%{
+        right: 165px;
+        bottom: 88px;
+    }
+    
+
+
+
+}  
